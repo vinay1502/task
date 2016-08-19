@@ -1,0 +1,32 @@
+<html ng-app="MyApp">
+<head>
+    <title>My Angular App</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    <link href="../css/style.css" rel="stylesheet" />
+</head>
+<body>
+<h1>Traffic Light System</h1>
+<div ng-controller="MyCtrl">
+    <div class="boxstyle">
+        <div class="red" ng-show="isDisplayRed()">
+
+        </div>
+
+    </div>
+    <div class="boxstyle ">
+        <div class="yellow" ng-show="isDisplayYellow()">
+
+        </div>
+    </div>
+    <div class="boxstyle ">
+        <div class="green" ng-show="isDisplayGreen()">
+
+        </div>
+    </div>
+</div>
+
+
+<script src="../js/script.js"> </script>
+</body>
+</html>
