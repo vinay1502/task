@@ -4,6 +4,7 @@ app.controller("MyCtrl", ["$scope", function($scope) {
     $scope.message = 'Hello World';
     
     $scope.startRedLight = function () {
+        
 
     }
 
