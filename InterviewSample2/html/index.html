@@ -9,29 +9,15 @@
 <h1>Traffic Light System</h1>
 <div ng-controller="MyCtrl">
     <div class="boxstyle">
-        <div class="red" ng-show="isDisplayRed()">
-            <div style="width:300px;height:300px;border:1px solid #000;">
-            <canvas id="myCanvas" width="578" height="200"></canvas>
-            </div> 
+        <div class="red" ng-show="isDisplayRed()"></div> 
+    </div>
 
-        </div>
-
+    
+    <div class="boxstyle ">
+        <div class="yellow" ng-show="isDisplayYellow()"></div>
     </div>
     <div class="boxstyle ">
-        <div class="yellow" ng-show="isDisplayYellow()">
-            <div style="width:300px;height:300px;border:1px solid #000;">
-            <canvas id="myCanvas" width="578" height="200"></canvas>
-            </div> 
-
-        </div>
-    </div>
-    <div class="boxstyle ">
-        <div class="green" ng-show="isDisplayGreen()">
-            <div style="width:300px;height:300px;border:1px solid #000;">
-            <canvas id="myCanvas" width="578" height="200"></canvas>
-            </div> 
-
-        </div>
+        <div class="green" ng-show="isDisplayGreen()"></div>
     </div>
 </div>
 
